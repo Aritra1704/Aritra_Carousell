@@ -1,0 +1,46 @@
+Android Coding Challenge 1 (Carousell News)
+
+Hello! We hope you are doing great today and really want to thank you for taking your time working on this exercise.
+Please feel free to use any external library and design pattern (MVP, MVVM etc). You may also choose to use either Java or Kotlin. Libraries like Dagger and RxJava are highly welcomed.
+
+Background
+You are finding yourself in a team, whose mission is to build Carousell News application. You are also provided with backend and design support.
+
+Instructions
+Your objective is to build an incredible experience for users reading articles, while at the same time impressing us with how simple, clean and testable your code is.
+
+After completing the assignment, please archive your project and submit it to us by replying to the email with challenge.
+Put your name and “(Android Coding Challenge)” as Subject.
+For example: “Rebecca(Android Coding Challenge)”
+
+Behaviour:
+The application we are building only consists of one screen that will display a list of articles downloaded from an API you can find in a list of attachments below.
+
+
+Each article item in the list should have the following:
+Title (max 2 lines)
+Description (max 2 lines)
+Date of creation displayed in a readable format, that shows timespan relative to current time.
+Example:
+5 days ago > “5 days ago”
+7 days ago > “1 week ago”
+4 weeks ago > “1 month ago”
+12 months ago > “1 year ago”
+
+Image (center crop)
+Action bar menu (Options menu) should have 2 options: recent, popular.
+
+Note: Please display text truncated If it’s too long to fit one line.
+
+Display the list of articles based on the design guidelines you can find in a list of attachments below.
+Sort the articles based on the time creation by default
+When user selects “recent” sorting option from actionbar menu, display the list sorted by the time
+“Popular” option should prioritize the articles first based on the rank and then the time
+
+Attachments:
+API to load articles: https://storage.googleapis.com/carousell-interview-assets/android/carousell_news.json
+Design guidelines:
+Design Guidelines
+
+
+
