@@ -19,10 +19,23 @@ import android.app.Activity
 import android.view.Display
 import android.graphics.Point
 import com.arpaul.aritra_carousell.ui.DashboardActivity
+import android.util.DisplayMetrics
+
+
 
 
 class BannerAdapters(val context: Context) : RecyclerView.Adapter<BannerAdapters.BannerHolder>() {
     private lateinit var adList: List<AdBanner>
+
+//    init {
+//        val displaymetrics = DisplayMetrics()
+//        (context as Activity).windowManager.defaultDisplay.getMetrics(displaymetrics)
+//        //if you need three fix imageview in width
+//        val devicewidth = displaymetrics.widthPixels / 3
+//
+//        //if you need 4-5-6 anything fix imageview in height
+//        val deviceheight = displaymetrics.heightPixels / 4
+//    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BannerAdapters.BannerHolder {
         val itemView = LayoutInflater.from(context).inflate(R.layout.item_ad, parent, false)
